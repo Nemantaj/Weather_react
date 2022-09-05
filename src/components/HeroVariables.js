@@ -1,0 +1,111 @@
+
+import ReactAnimatedWeather from "react-animated-weather/build/ReactAnimatedWeather";
+
+const iconName = [
+  "CLEAR_DAY",
+  "CLEAR_DAY",
+  "CLEAR_DAY",
+  "PARTLY_CLOUDY_DAY",
+  "PARTLY_CLOUDY_DAY",
+  "PARTLY_CLOUDY_DAY",
+  "PARTLY_CLOUDY_DAY",
+  "CLOUDY",
+  "CLOUDY",
+  "FOG",
+  "FOG",
+  "FOG",
+  "RAIN",
+  "RAIN",
+  "RAIN",
+  "RAIN",
+  "RAIN",
+  "RAIN",
+  "CLOUDY",
+  "CLOUDY",
+  "PARTLY_CLOUDY_DAY",
+  "SNOW",
+  "SNOW",
+  "SNOW",
+  "SLEET",
+  "SLEET",
+  "SLEET",
+  "SLEET",
+  "SLEET",
+  "SLEET",
+  "CLEAR_DAY",
+  "SNOW",
+  "WIND",
+  "CLEAR_NIGHT",
+  "CLEAR_NIGHT",
+  "PARTLY_CLOUDY_NIGHT",
+  "PARTLY_CLOUDY_NIGHT",
+  "CLEAR_NIGHT",
+  "CLOUDY",
+  "RAIN",
+  "RAIN",
+  "RAIN",
+  "RAIN",
+  "CLOUDY",
+  "SNOW",
+];
+
+const iconColor = [
+  "yellow",
+  "yellow",
+  "yellow",
+  "yellow",
+  "yellow",
+  "yellow",
+  "yellow",
+  "tomato",
+  "tomato",
+  "magenta",
+  "magenta",
+  "magenta",
+  "green",
+  "green",
+  "green",
+  "green",
+  "green",
+  "green",
+  "tomato",
+  "tomato",
+  "yellow",
+  "#016064",
+  "#016064",
+  "#016064",
+  "turquoise",
+  "turquoise",
+  "turquoise",
+  "turquoise",
+  "turquoise",
+  "turquoise",
+  "yellow",
+  "#016064",
+  "lime",
+  "wheat",
+  "wheat",
+  "orange",
+  "orange",
+  "wheat",
+  "tomato",
+  "green",
+  "green",
+  "green",
+  "green",
+  "tomato",
+  "#016064",
+];
+
+function HeroAnimation(props) {
+  return (
+    <ReactAnimatedWeather
+      icon={iconName[props.iconId]}
+      color={iconColor[props.iconId]}
+      animate
+      size={256}
+    />
+  );
+}
+
+export default HeroAnimation;

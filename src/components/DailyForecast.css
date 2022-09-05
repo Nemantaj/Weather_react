@@ -1,0 +1,35 @@
+.daily_flex{
+
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    margin-top: 2px;
+
+}
+
+.daily_div{
+
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+.daily_sun{
+
+    display: inline-flex;
+
+}
+
+.daily_icons{
+
+    position: relative;
+    top: 2px;
+
+}
+
+.daily_arrow{
+
+    position: relative;
+    top: 2px;
+
+}

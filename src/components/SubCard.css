@@ -1,0 +1,15 @@
+
+
+.sub_holder{
+    
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+.sub_icons{
+
+    position: relative;
+    top: 4px;
+
+}

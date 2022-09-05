@@ -1,0 +1,32 @@
+.hero_absolute{
+
+    position: absolute;
+
+}
+
+.hero_tmp{
+
+    margin-bottom: 10px;
+
+}
+
+.hero_xs{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.icon{
+
+    width: 92%;
+    text-align: right;
+
+}
+
+.hero_icons{
+
+    position: relative;
+    top: 2px;
+
+}
