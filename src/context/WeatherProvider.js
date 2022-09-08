@@ -11,7 +11,7 @@ function WeatherProvider(props) {
   const [error, setError] = useState("");
   const [search, setSearch] = useState(true);
 
-  const api = "9HHSqPcxkCS2nEKEHHUeKyyMMv8CV1Xm";
+  const api = "paste your accuweather API here!";
 
   async function getWeatherText(text) {
     setLoading(true);
